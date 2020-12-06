@@ -9,19 +9,34 @@
       href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/0.7.0/modern-normalize.min.css"
     />
 
-    <!-- TODO: Add some Google Fonts? -->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Source+Code+Pro:ital,wght@1,300&display=swap" rel="stylesheet">
 
     <link rel="stylesheet" href="style.css" />
 
-    <!-- TODO: Update '<title>'. -->
-    <title>Parcel Starter SPA</title>
+    <title>Final Project SPA</title>
   </head>
   <body>
-    <!-- TODO: Update this to match or at least resemble 'title' (for SEO 🤷🏾‍♂️) -->
-    <h1>Parcel Starter SPA</h1>
+    <h1>Final Project SPA</h1>
 
     <!-- TODO: 'render' content here -->
     <div id="root"></div>
     <script src="./index.js"></script>
+
+<!-- The core Firebase JS SDK is always required and must be listed first -->
+<script src="https://www.gstatic.com/firebasejs/8.1.2/firebase-app.js"></script>
+
+<!-- TODO: Add SDKs for Firebase products that you want to use
+     https://firebase.google.com/docs/web/setup#available-libraries -->
+<script src="https://www.gstatic.com/firebasejs/8.1.2/firebase-analytics.js"></script>
+
+<script>
+    // Initialize Firebase
+  firebase.initializeApp(firebaseConfig);
+  firebase.analytics();
+</script>
+
+
   </body>
 </html>
+
