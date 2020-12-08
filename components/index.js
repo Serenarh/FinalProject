@@ -1,2 +1,2 @@
-// Functional Component
+// Render table as SinglePageApplication
 export { default as Main } from "./Main";
